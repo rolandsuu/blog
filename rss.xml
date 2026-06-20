@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Roland Su</title>
+    <link>https://rolandsuu.github.io/blog/</link>
+    <description>Small essays on code, tools, and shipping.</description>
+    <language>en</language>
+    <item>
+      <title>Designing with constraints</title>
+      <link>https://rolandsuu.github.io/blog/posts/designing-with-constraints.html</link>
+      <guid>https://rolandsuu.github.io/blog/posts/designing-with-constraints.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <description>How constraints shape better systems, clearer APIs, and more reliable code.</description>
+    </item>
+    <item>
+      <title>Static sites still matter</title>
+      <link>https://rolandsuu.github.io/blog/posts/static-sites-still-matter.html</link>
+      <guid>https://rolandsuu.github.io/blog/posts/static-sites-still-matter.html</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Why static sites are still a good default for small writing projects.</description>
+    </item>
+    <item>
+      <title>What I learned debugging builds</title>
+      <link>https://rolandsuu.github.io/blog/posts/debugging-builds.html</link>
+      <guid>https://rolandsuu.github.io/blog/posts/debugging-builds.html</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <description>A short note about making build failures easier to understand.</description>
+    </item>
+  </channel>
+</rss>
