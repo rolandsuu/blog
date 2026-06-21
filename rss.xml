@@ -5,5 +5,12 @@
     <link>https://rolandsuu.github.io/blog/</link>
     <description>Small essays on code, tools, and shipping.</description>
     <language>en</language>
+    <item>
+      <title>Use Safari instead</title>
+      <link>https://rolandsuu.github.io/blog/posts/use-safari-instead.html</link>
+      <guid>https://rolandsuu.github.io/blog/posts/use-safari-instead.html</guid>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+      <description>I just feel more natural and easy to use safari than ChatGPT Altas.</description>
+    </item>
   </channel>
 </rss>
