@@ -60,6 +60,11 @@ p {
   color: var(--muted);
 }
 
+.empty-state {
+  margin-top: 38px;
+  color: var(--muted);
+}
+
 .posts {
   list-style: none;
   margin: 38px 0 0;
