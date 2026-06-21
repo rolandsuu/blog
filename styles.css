@@ -60,8 +60,27 @@ p {
   color: var(--muted);
 }
 
+.site-cat {
+  width: min(220px, 58vw);
+  margin: 42px 0 34px;
+}
+
+.site-cat svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cat-line {
+  fill: none;
+  stroke: var(--foreground);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .empty-state {
-  margin-top: 38px;
+  margin-top: 0;
   color: var(--muted);
 }
 
@@ -153,6 +172,11 @@ time {
   main {
     width: min(calc(100% - 32px), var(--max-width));
     margin: 48px auto;
+  }
+
+  .site-cat {
+    width: min(190px, 70vw);
+    margin: 34px 0 28px;
   }
 
 }
