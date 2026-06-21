@@ -71,21 +71,36 @@ p {
 }
 
 .posts a {
-  display: grid;
-  grid-template-columns: 52px minmax(0, 1fr);
-  gap: 12px;
+  display: flex;
+  align-items: baseline;
   text-decoration: none;
 }
 
-.posts a:hover .post-title {
+.posts a:hover .post-title,
+.posts a:focus-visible .post-title {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
 
-.post-year,
 time {
   color: var(--muted);
+}
+
+.post-date {
+  flex: 0 0 auto;
+  width: 0;
+  margin-right: 0;
+  overflow: hidden;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.posts a:hover .post-date,
+.posts a:focus-visible .post-date {
+  width: 104px;
+  margin-right: 12px;
+  opacity: 1;
 }
 
 .post-title {
@@ -135,7 +150,4 @@ time {
     margin: 48px auto;
   }
 
-  .posts a {
-    grid-template-columns: 48px minmax(0, 1fr);
-  }
 }
