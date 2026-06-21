@@ -60,18 +60,32 @@ p {
   color: var(--muted);
 }
 
-.site-cat {
-  width: min(220px, 58vw);
+.site-animals {
+  display: flex;
+  align-items: flex-end;
+  gap: clamp(16px, 4vw, 28px);
   margin: 42px 0 34px;
 }
 
-.site-cat svg {
+.site-cat {
+  width: min(220px, 58vw);
+  flex: 0 1 auto;
+}
+
+.site-frog {
+  width: min(86px, 22vw);
+  flex: 0 0 auto;
+  margin-bottom: 22px;
+}
+
+.site-cat svg,
+.site-frog svg {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.cat-line {
+.animal-line {
   fill: none;
   stroke: var(--foreground);
   stroke-width: 4;
@@ -174,9 +188,17 @@ time {
     margin: 48px auto;
   }
 
-  .site-cat {
-    width: min(190px, 70vw);
+  .site-animals {
     margin: 34px 0 28px;
+  }
+
+  .site-cat {
+    width: min(190px, 58vw);
+  }
+
+  .site-frog {
+    width: min(72px, 23vw);
+    margin-bottom: 18px;
   }
 
 }
