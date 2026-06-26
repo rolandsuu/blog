@@ -60,6 +60,20 @@ p {
   color: var(--muted);
 }
 
+.list-note,
+.animal-caption {
+  color: var(--muted);
+}
+
+.list-note {
+  margin-bottom: 14px;
+}
+
+.animal-caption {
+  margin-top: -18px;
+  font-size: 14px;
+}
+
 .site-animals {
   display: flex;
   align-items: flex-end;
@@ -100,7 +114,7 @@ p {
 
 .posts {
   list-style: none;
-  margin: 38px 0 0;
+  margin: 0;
   padding: 0;
 }
 
